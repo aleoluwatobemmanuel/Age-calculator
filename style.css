@@ -11,12 +11,15 @@ body{
  display:flex;
  justify-content: center;
  align-items: center;
+ max-width:1440px ;
+ /* font-size: 32px; */
  
 }
 .container{
+  /* font-size: small; */
   background-color:hsl(0, 0%, 94%);
-  width: 420px;
-  max-width: 80%;
+  width:500px;
+  max-width: 50%;
   padding: 30px;
   border-bottom-right-radius: 150px;
   margin-top: 40px;
@@ -76,11 +79,13 @@ input:focus{
   font-style: italic;
   
 }
-.result span{
+ #yyy,#mm,#dd{
   font-size: 32px;
+  size: 32px;
   color: hsl(259, 100%, 65%) ;
   font-style: italic;
   font-weight: 700;
+  size:32px;
 
 
 }
@@ -105,8 +110,8 @@ button{
   border: none;
   border-radius: 50%;
   position: absolute;
-  right: 40em;
-  top: 15em;
+  right: 36em;
+  top: 17em;
 
 
 }
